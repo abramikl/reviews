@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reviews</title>
+    <link rel="stylesheet" href="./css/ctyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="write__reviews">
+        <div>
+            <h1 class="reviews__title">Написать отзыв</h1>
+            <div class="reviews__name">
+                <div class="name__title">Ваше имя</div>
+                <input type="text" placeholder="Напишите сюда ваше имя" class="input__name"/>
+            </div>
+
+            <div class="reviews__text">
+                <div class="text__title">Текст отзыва</div>
+                <textarea  placeholder="Напишите сюда ваш отзыв" class="textarea__text"></textarea>
+            </div>
+
+            <div class="reviews__button">
+                <button class="button__cleare">Очистить все поля</button>
+                <button class="button__reviews"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7703 0.258767C15.0876 0.592119 15.0746 1.1196 14.7412 1.43692L5.1116 10.6036C4.94715 10.7601 4.72596 10.8428 4.49915 10.8325C4.27234 10.8222 4.05957 10.7197 3.91002 10.5489L0.206313 6.31814C-0.0968379 5.97184 -0.0618655 5.44537 0.284426 5.14222C0.630718 4.83907 1.15719 4.87404 1.46035 5.22033L4.59176 8.79737L13.5921 0.229749C13.9254 -0.0875763 14.4529 -0.0745843 14.7703 0.258767Z" fill="white"/>
+                    </svg> Отправить отзыв</button>
+            </div>
+        </div>
+        <div class="responses">
+            <div class="responses__title">Все отзывы:</div>
+            <div class="responses__js">
+            </div>
+        </div>
+    </div>
+
+    <script src="./js//script.js"></script>
+</body>
+</html>
